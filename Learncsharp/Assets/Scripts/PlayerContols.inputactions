@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "PlayerContols",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "8d379a12-7183-4acd-86d7-78be847d0a57",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "fef545ab-484a-4bfd-b88f-4d4cf5ebdfcc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "c70ab3c6-fe52-42de-abb4-c8bad27f80bc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c990cb2e-e6be-4271-9236-3c981ccd3c06",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef1b5f15-e1d9-44b8-9138-bb931b274a75",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
